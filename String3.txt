@@ -1,0 +1,69 @@
+#str=input("Enter  your String : ")
+#frequency={}
+#for i in str:
+#	if i in frequency:
+#		frequency[i]+=1
+#	else:
+#		frequency[i]=1
+#print("Frequency of String : ",frequency)
+
+#list=["Emma","Jon","","Kelly",None,"Eric",""]
+#list2=[]
+#for i in list:
+#	if i !="" and i is not None:
+#		list2.append(i)
+#print("Original List : ",list)
+#print("New List: ",list2)
+		
+#str=input("Enter the String : ")
+#new=""
+#for i in str:
+#	if i.isalpha() or i==" ":
+#		new+=i
+#print("String is : ",new)
+
+#str=input("Enter the String")
+#new=""
+#for i in str:
+#	if i.isdigit():
+#		new+=i
+#print("String with Numeric Digits : ",new)
+
+#str=input("Enter the String : ")
+#new=""
+#for i in str:
+#	if i.isalpha() or i==" ":
+#		new+=i
+#	else:
+#		new+="#"
+#print("New String : ",new)
+
+#str=input("Enter the String : ")
+#rev=str[::-1]
+#if str==rev:
+#	print("String is Palindrome ")
+#else:
+#	print("String is not Palindrome")
+
+#s1=input("Enter the first String : ")
+#s2=input("Enter the Second String : ")
+#if sorted(s1)==sorted(s2):
+#	print("Strings are Anagrams")
+#else:
+#	print("Strings are not Anagrams")
+		
+#def unique(str):
+#	for i in str:
+#		if str.count(i)==1:
+#			return True
+#	return False
+#s=input("Enter the String : ")
+#print(f"{s} is unique : {unique(s)}")			
+
+#sentence=input("Enter the Sentence : ")
+#str=sentence.split()
+#title=[]
+#for i in str:
+#	new=i.capitalize()
+#	title.append(new)
+#print(" ".join(title))

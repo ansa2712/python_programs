@@ -1,0 +1,58 @@
+# print("Hello")
+
+# str=input("Enter the string: ")
+# new_str=""
+# for i in str:
+#     if i not in new_str:
+#         new_str+=i
+# print("Duplicates Removed String: ",new_str)
+
+# str=input("Enter the String: ")
+# str_split=str.split()
+# rev=" ".join(str_split[::-1])
+# print("Reversed String: ",rev)
+
+# s1=input("Enter the first String: ")
+# s2=input("Enter the Second String: ")
+# new=""
+# for i in range(len(s1)):
+#     new=new+s1[i]+s2[i]
+# print("Merged String: ",new)
+
+# str=input("Enter the string: ")
+# str_split=str.split()
+# longest_word=str_split[0]
+# for i in str_split:
+#     if len(i)>len(longest_word):
+#         longest_word=i
+# print("Longest Word: ",longest_word)
+    
+# str=input("Enter the String: ")
+# split=str.split()
+# new=""
+# for i in split:
+#     new= new+i[0]
+# print(new)
+
+# str=input("Enter the String: ")
+# split=str.split()
+# new={}
+# for i in split:
+#     if i in new:
+#         new[i]+=1
+#     else:
+#         new[i]=1
+# print(new)
+
+# str=input("Enter the String: ")
+# for i in str:
+#     if str.count(i)==1:
+#         print("the non repeating character: ",i)
+#         break
+
+# s1=input("Enter the first string: ")
+# s2=input("Enter the second string: ")
+# if len(s1)==len(s2) and s2 in s1+s1:
+#     print("Is Rotataion")
+# else:
+#     print("Not Rotation")

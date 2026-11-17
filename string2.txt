@@ -1,0 +1,98 @@
+#def balance(s1,s2):
+#	isbalanced=True
+#	for i in s1:
+#		if i in s2:
+#			continue
+#		else:
+#			isbalanced=False
+#			break
+#	return isbalanced
+#str1=input("Enter the First String : ").lower()
+#str2=input("Enter the Second String : ").lower()
+#if(balance(str1,str2)):
+#	print("True")
+#else:
+#	print("False")
+
+#str=input("Enter the string: ").lower()
+#count=0
+#for i in str:
+#	if i in "aeiou":
+#		count+=1
+#print("The count of vowels : ",count)
+
+#str= input("Enter the URL : ")
+#if str[0:5]=="https" and str[-4:]==".com":
+#	print("Valid URL ")
+#else:
+#	print("Invalid URL ")
+
+#str= input("Enter the String : ")
+#toggle=str.swapcase()
+#print("Original Strin : ",str)
+#print("Toggled String : ",toggle)
+
+#str=input("Enter the String : ")
+#new_str=str.replace(" ","")
+#print("Original String : ",str)
+#print("Space removed string : ",new_str)
+
+#str=input("Enter the String : ")
+#i=2
+#new=str[:i]+str[i+1:]
+#print("Removed String : ",new)
+
+#a=input("Enter id : ")
+#sep="@"
+#part=a.partition(sep)
+#print("Seperated String :",part)
+
+#str=input("Enter the Filename : ")
+#extension=str[-3:]
+#print("File Extension : ",extension)
+
+#str=input("Enter the String : ")
+#lower=""
+#upper=""
+#for i in str:
+#	if i.islower():
+#		lower+=i
+#	else:
+#		upper+=i
+#new=lower+upper
+#print("Updated String : ",new)
+
+#str=input("Enter the String :")
+#char_count=0
+#digit_count=0
+#symbol_count=0
+#for i in str:
+#	if i.isalpha():
+#		char_count+=1
+#	elif i.isdigit():
+#		digit_count+=1
+#	else:
+#		symbol_count+=1
+#print("Total Count pf Character, Digits, Symbols")
+#print("Character = ",char_count)
+#print("Digits = ",digit_count)
+#print("Symbols = ",symbol_count)
+
+#s1=input("Enter the 1st String : ")
+#s2=input("Enter the 2nd String : ")
+#new=s1[0]+s2[-1]+s1[1]+s2[1]+s1[-1]+s2[0]
+#print("New String : ",new)
+
+#str=input("Enter the String: ")
+#sum=0
+#count=0
+#for i in str:
+#	if i.isdigit():
+#		sum+=int(i)
+#		count+=1
+#if count>0:
+#	avg=sum/count
+#else:
+#	avg=0
+#print("Sum of Digits : ",sum)	
+#print("Average of Digits : ",avg)	
