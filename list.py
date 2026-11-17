@@ -158,12 +158,90 @@
 # print("Cleaned List : ",new)
 
 # 20. Remove all duplicate values from a list while keeping only one instance of each element.
-list=[10,20,30,10,40,30,20,50,40,50]
-print("Original List : ",list)
-new=[]
-for i in list:
-    if i not in new:
-        new.append(i)
-    else:
-        continue
-print("Duplicates removed list: ",new)
+# list=[10,20,30,10,40,30,20,50,40,50]
+# print("Original List : ",list)
+# new=[]
+# for i in list:
+#     if i not in new:
+#         new.append(i)
+#     else:
+#         continue
+# print("Duplicates removed list: ",new)
+
+# 21. Given a list of integers,use list comprehensions to create a new list thaat contains only the even numbers from the original list.
+# list=[1,2,3,4,5,6,7,8,9,10]
+# print("Original List : ",list)
+# new=[]
+# for i in list:
+#     if i%2==0:
+#         new.append(i)
+# print("list of even numbers : ",new) 
+
+# 22. Given two list of strings, combine them index-by-index to form a sing list of concatenated string:
+# list1=["Py","is","awes"]
+# list2=["thon"," ","ome"]
+# new=[]
+# for i in range(len(list1)):
+#         new.append(list1[i]+list2[i])
+# print(new)
+
+# 23. Use the zip() function to loop through two lists at once and print their values as pairs.
+# list1=[10,20,30]
+# list2=[100,200,300]
+# for i,j in zip(list1,list2):
+#     print(i,j)
+
+# 24. Find a specific item in a list and insert a new item immediately after it.
+# list=[10,20,30,40,50]
+# print("Original List : ",list)
+# a=int(input("Enter where to insert the number : "))
+# b=int(input("Enter the new item you want to insert : "))
+# index=list.index(a)
+# list.insert(index+1,b)
+# print("Updated List : ",list)
+
+# 25. Find the first occurrence of a specific value in a list and replace it with a new value.
+# list=[5,10,15,20,25]
+# print("Original List : ",list)
+# a=int(input("Enter the element you need replace : "))
+# b=int(input("Enter the replaced element : "))
+# index=list.index(a)
+# list[index]=b
+# print("Updated list : ",list)
+
+# 26. Write a Python function that takes a list of numbers and returns the second largest value. Ensure the function handles lists with duplicate values correctly (e.g., if the list is [10, 10, 9], the second largest is 9).
+# def second_largest(a):
+#     a=list(set(a))
+#     a.sort()
+#     return a[-2]
+# num=[12,35,1,10,34,1,35]
+# print("The second largest number is : ",second_largest(num))
+
+# 27. Create a script that identifies the “Mode” of a list—the element that appears most frequently. If there is a tie, returning one of the top elements is sufficient for this exercise.
+
+# 28. Write a function that accepts a list and an integer n, returning a new list containing every nth element from the original, starting from the first element (index 0).
+# def nth_element(num,n):
+#     return num[::n]
+# numbers=["a","b","c","d","e","f","g","h"]
+# print("list: ",numbers)
+# n=int(input("Enter the limit: "))
+# print("Result : ",nth_element(numbers,n))
+
+# 29. Determine if a list reads the same forward and backward. The function should return True if it is a palindrome and False otherwise.
+# def palindrome(n):
+#     rev=n[::-1]
+#     if rev==n:
+#         return True
+#     else:
+#         return False
+# list=[1,2,3,2,1]
+# print("Is list a palindrome ? ",palindrome(list))
+
+# 30. Given three separate lists, write a function that returns a list containing only the elements that appear in all three.
+def common(a,b,c):
+    same=set(a)&set(b)&set(c)
+    return list(same)
+list1=[1,5,10,20]
+list2=[6,7,20,80,100,10]
+list3=[3,4,15,20,30,70,80,10]
+print("Common Elements : ",common(list1,list2,list3))
