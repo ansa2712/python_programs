@@ -238,10 +238,10 @@
 # print("Is list a palindrome ? ",palindrome(list))
 
 # 30. Given three separate lists, write a function that returns a list containing only the elements that appear in all three.
-def common(a,b,c):
-    same=set(a)&set(b)&set(c)
-    return list(same)
-list1=[1,5,10,20]
-list2=[6,7,20,80,100,10]
-list3=[3,4,15,20,30,70,80,10]
-print("Common Elements : ",common(list1,list2,list3))
+# def common(a,b,c):
+#     same=set(a)&set(b)&set(c)
+#     return list(same)
+# list1=[1,5,10,20]
+# list2=[6,7,20,80,100,10]
+# list3=[3,4,15,20,30,70,80,10]
+# print("Common Elements : ",common(list1,list2,list3))
